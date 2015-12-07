@@ -5,11 +5,9 @@ using System.Web;
 
 namespace LojaMusica.Web.Models
 {
-    public class Genre
+    public class Artist
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
-        public List<Album> Albums { get; set; }
     }
 }
